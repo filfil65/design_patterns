@@ -40,13 +40,14 @@ class PetStore:
 factory = DogFactory()
 
 # Create a pet store housing our Abstract Factory
-# This abstracts the concrete factory, thus allowing us to use it without differentiating between Pet types.
-shop = PetStore(factory)
+# By passing a concrete factory to the PetShop, we define what this PetShop sells, cats or dogs.
+dog_shop = PetStore(factory)
 
 # Invoke the utility method to show the details of our pet
-shop.show_pet()
+dog_shop.show_pet()
 
 # Adding a Cat and Cat Factory would be trivial to do.
 
 # Having the concrete Dog and Cat factories allows you to parameterize your pets, e.g. by breed.
-# The Abstract factory (Pet Store) then allows you to use your Cats and Dogs in a generic/abstract way.
+# The parameterization will happen at runtime, the parameters will be passed to dog_shop.show_pet() which will then
+# create the correct type of Dog (or Cat) at runtime.
