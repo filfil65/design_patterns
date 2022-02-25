@@ -10,5 +10,5 @@ We are trying to build many identical cars, then we can simply clone one rather 
 # Solution
 * Create a prototypical instance first then simply clone it whenever you need a replica
 
-## Notes
-Abstract Factory pattern is related to the Prototype patter. 
+# Related patterns
+* Abstract Factory 
