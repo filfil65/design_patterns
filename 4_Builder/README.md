@@ -7,7 +7,7 @@ Telescopic constructor occurs when the developer attempts to build an object usi
 ## Scenario
 We are trying to build a car, but we first need to construct all the individual car parts and then assemble them.
 
-# Solution
+## Solution
 * A builder pattern brings order to this chaotic process to remove unnecessary complexity in building a complex object.
 * The builder partitions the process of building a complex object into the 4 different roles:
 1. Director - in charge of actually building the object using the builder object.

@@ -7,8 +7,8 @@ Creating many identical objects individually is expensive, you can just clone on
 ## Scenario
 We are trying to build many identical cars, then we can simply clone one rather than make lots of individual ones. 
 
-# Solution
+## Solution
 * Create a prototypical instance first then simply clone it whenever you need a replica
 
-# Related patterns
+## Related patterns
 * Abstract Factory 
