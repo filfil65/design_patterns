@@ -56,3 +56,4 @@ p.produce()
 
 # It would be cool if the Proxy could become the Producer once the Producer is instantiated.
 # Or why not make the Producer a 'proxy' of itself and only initialize resource intensive parts when ready?
+# - This can be done by adding the __getattr__ which returns from the Producer object (see adapter.py).
