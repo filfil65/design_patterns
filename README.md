@@ -1,4 +1,6 @@
 # Design Patterns
+For further learning, see https://github.com/faif/python-patterns
+
 ## Why?
 When developing software you might encounter the same problem over and over. Design patterns are well knows and 
 accepted solutions to those problems. 
